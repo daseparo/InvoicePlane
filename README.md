@@ -26,7 +26,7 @@ Dodan modul za Hrvatsku fiskalizaciju. Nakon instalacije originala (v 1.4.10) po
 	5.3. setting_key: ca_cert_path, setting_value: putanja do FIna root certifikata (u cer formatu)
 	5.4. setting_key: sustav_pdv, setting_value: 1 (za u sustavu PDV-a) ili 0 (za nije u sustavu PDV-a)
 	5.5. setting_key: oznaka_slijednosti, setting_value: P (za nivou poslovnog prostora) ili N (za na nivou naplatnog uređaja)
->>>>>>> 84cdfbf65ebf5f859ebe7dfb2bbd6f4bcefda139
+>>>>>>> 
 
 6. Dodati nova polja u tabli ip_invoices:
 
