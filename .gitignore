@@ -1,0 +1,25 @@
+# Config folder
+/application/config/development
+/application/config/database.php
+
+# Logs folder
+/application/logs/*
+!/application/logs/index.html
+
+# Helpers
+/application/helpers/mpdf/ttfontdata/*
+
+# Language
+/application/language
+!/application/language/english
+
+
+# Composer
+/vendor/
+composer.lock
+/assets/default/css/.bootsrap.css.swp
+/.htaccess
+.idea
+.sass-cache
+adminer.php
+/nbproject/

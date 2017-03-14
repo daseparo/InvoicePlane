@@ -1,0 +1,127 @@
+/* =============================================================================
+   InvoicePlane
+   Custom Stylesheet
+
+   All changes made in this file will override the default styles in PDFs.
+   ========================================================================== */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    color: #375bc8;
+    text-decoration: underline
+}
+body {
+    position: relative;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    color: black;
+    background: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+header {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+#logo {
+    text-align: left;
+    margin-bottom: 10px;
+}
+#main {
+ border-bottom: 1px solid #606060;
+
+}
+#invoice-logo {
+    max-height: 125px;
+    text-align: left;
+}
+.invoice-sums {
+ border-top: 1px solid #606060;
+
+}
+.report_title {
+    color: #375bc8;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: normal;
+    margin: 20px 0;
+    text-align: center;
+}
+#company {
+    float: left;
+    text-align: left;
+    width: 190%
+}
+.invoice-details {
+    text-align: left;
+}
+.invoice-details table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    width: 100%;
+    margin: 0 0 0 auto;
+    font-size: 12px
+}
+.invoice-details table td {
+    width: auto;
+    margin: 0;
+    padding: 0 0 0.5em 0
+}
+.invoice-details table th {
+    text-align: left;
+   margin-bottom: 10px;
+
+}
+table.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px;
+    font-size: 12px
+}
+table.item-table tr:nth-child(2n-1) td {
+    background: #F5F5F5
+}
+
+table.item-table th {
+    padding: 10px 15px;
+    border-bottom: 1px solid #606060;
+    white-space: nowrap;
+    text-align: left
+}
+table.item-table th.text-right {
+    text-align: left;
+}
+table.item-table td {
+    padding: 7px 15px
+}
+table.item-table .invoice-sums {
+    text-align: right
+}
+footer {
+    color: black;
+    width: 100%;
+    border-top: 2px solid #878787;
+    padding: 8px 0;
+    text-align: left;
+}
+.text-right {
+    text-align: right
+}
+.text-red {
+    color: black;
+    font-style: italic;
+}
+.text-green {
+    color: #77b632
+}
+.textleft .text-left
+{
+    text-align: left;
+}
