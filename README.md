@@ -9,7 +9,7 @@ Dodan modul za Hrvatsku fiskalizaciju. Nakon instalacije originala (v 1.4.10) po
 2. Postavke -> Grupe računa -> Fiskalni račun (definiran internim aktom) u formatu:
   redni_broj_računa/oznaka_poslovnog_prostora/broj_naplatnog_uređaja  - bitno je odvajanje sa "/"
 
-3. Postavke -> Porezne stope. Dodati porezne stope u formatu: Naziv porezne stope: PDV (5), Porezna stopa(%): 5. Naziv mora sadržavati velikim slovima PDV.
+3. Postavke -> Porezne stope. Dodati porezne stope (5,15,25) u formatu: Naziv porezne stope: PDV (5), Porezna stopa(%): 5. Naziv mora sadržavati velikim slovima PDV.
 
 4. Postavke -> Računi -> Zadani pdf predložak  -> racun
 
