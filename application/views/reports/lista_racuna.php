@@ -66,7 +66,7 @@
             $porezna_osnovica = $porezna_osnovica + $result->invoice_item_subtotal;
             $ukupno_poreza = $ukupno_poreza + $result->invoice_item_tax_total;
             list($rbr1,$oznakaPoslovnogProstora, $oznakaNaplatnogUredaja) = explode ("/", $result->invoice_number);
-             array_push($lista_racuna,array('rbr'=>$rbr1,'datum'=>date_create($result->invoice_date_created),'terms'=>$result->invoice_terms,'subtotal'=>$result->invoice_item_subtotal,'np'=>$result->payment_method,'total'=>$result->invoice_total, 'tax'=>$result->invoice_item_tax_total));  
+             array_push($lista_racuna,array('rbr'=>$rbr1,'datum'=>date_create($result->invoice_date_created),'terms'=>$result->client_name,'subtotal'=>$result->invoice_item_subtotal,'np'=>$result->payment_method,'total'=>$result->invoice_total, 'tax'=>$result->invoice_item_tax_total));  
 
 
             if ($rbr1 < $min)
